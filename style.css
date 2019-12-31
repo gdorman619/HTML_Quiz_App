@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap');
+
+body {
+	font-family: 'Oxygen', sans-serif;
+	background-color: #278190;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: 75px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+.question_number_container p {
+	display: inline;
+}
+
+.wrapper div {
+	border: 1px solid black;
+}
+
+.quiz_header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.choice_container {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+}
+
+.choice_container div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(85, 85, 189);
+}
+
+.choice_letter {
+	grid-column: span 1;
+	color: white;
+}
+
+.choice_text {
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
+	background-color: rgb(100, 62, 49);
+	grid-column: span 9;
+	color: white;
+	padding-left: 10px;
+}
