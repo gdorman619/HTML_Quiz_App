@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link rel="stylesheet" href="style.css" />
-		<title>Gary Quiz App</title>
-	</head>
-	<body>
-		<div class="wrapper">
-			<div class="quiz_header">
-				<h1 id="quiz_title">WWE Quiz Game</h1>
-			</div>
-			<div class="question_number_container">
-				<p>Question</p>
-				<p id="current_question_number">1</p>
-				<p>Of</p>
-				<p id="total_questions">15</p>
-			</div>
-			<div class="question_container">
-				<p class="question_text">Who is the tallest wrestler in WWE?</p>
-			</div>
-			<div class="choice_container" id="choice_1">
-				<div><p class="choice_letter">A</p></div>
-				<p class="choice_text">Big Show</p>
-			</div>
-			<div class="choice_container" id="choice_2">
-				<div><p class="choice_letter">B</p></div>
-				<p class="choice_text">Braun Strowman</p>
-			</div>
-			<div class="choice_container" id="choice_3">
-				<div><p class="choice_letter">C</p></div>
-				<p class="choice_text">Rey Mysterio</p>
-			</div>
-			<div class="choice_container" id="choice_4">
-				<div><p class="choice_letter">D</p></div>
-				<p class="choice_text">Kane</p>
-			</div>
-		</div>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gary Quiz App</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="quiz_header">
+        <h1 id="quiz_title">WWE Quiz Game</h1>
+      </div>
+      <div class="question_number_score_container">
+        <div id="question_number_container">
+          <p>
+            Question: <var id="current_question_number">1</var> Of:
+            <var id="total_questions">15</var>
+          </p>
+        </div>
+        <div id="score_container">
+          <p>Score: <var id="current_score">14</var> Points</p>
+        </div>
+      </div>
+      <div class="question_container">
+        <p class="question_text">
+          Who is the tallest wrestler in WWE?
+        </p>
+      </div>
+      <div class="choice_container" id="choice_1">
+        <div><p class="choice_letter">A</p></div>
+        <p class="choice_text">Big Show</p>
+      </div>
+      <div class="choice_container" id="choice_2">
+        <div><p class="choice_letter">B</p></div>
+        <p class="choice_text">Braun Strowman</p>
+      </div>
+      <div class="choice_container" id="choice_3">
+        <div><p class="choice_letter">C</p></div>
+        <p class="choice_text">Rey Mysterio</p>
+      </div>
+      <div class="choice_container" id="choice_4">
+        <div><p class="choice_letter">D</p></div>
+        <p class="choice_text">Kane</p>
+      </div>
+    </div>
+  </body>
 </html>
