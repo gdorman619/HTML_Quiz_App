@@ -96,6 +96,24 @@ button {
   font-size: large;
 }
 
+.choice_text_hover:hover {
+  background-color: rgba(18, 199, 199, 0.822);
+  color: whitesmoke;
+  font-size: larger;
+  font-weight: 700;
+  margin-left: 3px;
+  transition: 400ms ease-in-out;
+}
+
+.choice_text:selection {
+  background-color: rgba(199, 18, 154, 0.822);
+  color: whitesmoke;
+  font-size: larger;
+  font-weight: 700;
+  margin-left: 3px;
+  transition: 400ms ease-in-out;
+}
+
 .choice_text {
   display: flex;
   align-items: center;
