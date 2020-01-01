@@ -19,6 +19,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+  grid-gap: 3px;
 }
 
 var {
@@ -63,16 +64,22 @@ var {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(11, 90, 238);
+  background-color: rgba(18, 199, 199, 0.822);
 }
 
-.choice_container {
+/* .choice_container {
   border: 1px solid black;
-}
+} */
 
 .question_container {
   font-weight: 600;
   font-size: 1.3rem;
+}
+
+.button_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .choice_letter {
@@ -81,12 +88,20 @@ var {
   font-weight: 700;
 }
 
+button {
+  padding: 15px 15px;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: large;
+}
+
 .choice_text {
   display: flex;
   align-items: center;
   grid-column: span 9;
   padding-left: 10px;
-  background-color: rgba(199, 144, 26, 0.438);
+  /* background-color: rgba(199, 144, 26, 0.438); */
   color: rgb(40, 37, 41);
   font-weight: 600;
 }
