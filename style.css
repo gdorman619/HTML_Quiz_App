@@ -57,6 +57,7 @@ var {
 
 .choice_container {
   display: grid;
+  grid-gap: 3px;
   grid-template-columns: repeat(10, 1fr);
 }
 
@@ -101,7 +102,7 @@ button {
   color: whitesmoke;
   font-size: larger;
   font-weight: 700;
-  margin-left: 3px;
+  /* margin-left: 3px; */
   transition: 400ms ease-in-out;
 }
 
@@ -110,7 +111,7 @@ button {
   color: whitesmoke;
   font-size: larger;
   font-weight: 700;
-  margin-left: 3px;
+  /* margin-left: 3px; */
   transition: 400ms ease-in-out;
 }
 
